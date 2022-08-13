@@ -5,8 +5,11 @@ interface LayoutProps {
 	children: ReactElement;
 }
 export function Layout({ children }: LayoutProps) {
-	return <>
-	<Header />
-	
-	{children}</>;
+	return (
+		<>
+			<Header />
+
+			{children}
+		</>
+	);
 }
