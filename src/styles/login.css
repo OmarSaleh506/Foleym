@@ -1,0 +1,133 @@
+.login {
+	background-image: url(../images/movie.jpg);
+	background-repeat:no-repeat;
+	background-size:cover ;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.login-container {
+	display: flex;
+	flex-direction: column;
+	border: none;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+	height: 470px;
+	width: 396px;
+	background-color: #010d12e3;
+	text-align: center;
+}
+.sign-up-content {
+	height: 570px;
+}
+.login-container h1 {
+    display: flex;
+    justify-content: left;
+    margin-left: 45px;
+}
+.login h3 {
+	font-size: 25px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: Helvectica, Arial, sans-serif;
+	text-align: center;
+	color: #1c1e21;
+}
+.login-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 15px;
+    gap: 10px;
+}
+.login-container .login-form input {
+	height: 50px;
+	margin-bottom: 10px;
+	width: 303px;
+	border-radius: 5px;
+	outline: none;
+	padding-left: 20px;
+	background: #333333;
+	border: none;
+	color: #fff;
+	line-height: 16px;
+	font-size: 17px;
+	vertical-align: middle;
+}
+.login-btn-login,
+.login-btn-create-acc {
+	cursor: pointer;
+	display: inline-block;
+	text-decoration: none;
+	position: relative;
+	text-align: center;
+	text-shadow: none;
+	font-weight: bold;
+	justify-content: center;
+	background-color: #072950;
+	border: none;
+	border-radius: 6px;
+	font-size: 20px;
+	line-height: 48px;
+	padding: 0 16px;
+	width: 332px;
+	color: #fff;
+}
+.login-btn-login:hover {
+	background-color: #0f59b9;
+}
+.login-btn-create-acc {
+	margin-top: 10px;
+	width: 210px;
+	font-size: 18px;
+}
+.login-btn-create-acc:hover {
+	background-color: #0f59b9;
+}
+.login-underline {
+	color: #97999c;
+}
+.login-container .login-form a {
+	text-decoration: none;
+	color: #1877f2;
+}
+.login-h4 {
+	padding-top: 35px;
+	font-size: 14px;
+	color: #525457;
+}
+.login-a {
+	text-decoration: none;
+	color: #1c1e21;
+}
+.login-up-continuer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.login-up-continuer h1 {
+	text-align: center;
+	margin-right: 40px;
+}
+.sign-up {
+	display: flex;
+	align-items: center;
+	width: 265px;
+	height: 60px;
+}
+.login-ub-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.error-p {
+	font-size: 13px;
+	font-weight: 300;
+	color: rgb(241, 66, 12);
+	padding: 0;
+	margin: 0;
+	position: relative;
+	bottom: 15px;
+}

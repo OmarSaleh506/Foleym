@@ -1,0 +1,8 @@
+.background-img-container {
+    width: 100vw;
+    height: 100vh;
+}
+.background-img-container img {
+    height: 100vh;
+    width: 100vw;
+}
