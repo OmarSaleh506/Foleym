@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { BiSearch } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
 export default function Header() {
 	const [Scrolled, setScrolled] = useState(false);
@@ -42,7 +41,6 @@ export default function Header() {
 				</ul>
 			</div>
 			<div className="container-item">
-				<BiSearch size={27} className="BiSearch" />
 				<Link to="/profile">
 					<img src="https://rb.gy/g1pwyx" alt="" className="img-account" />
 				</Link>

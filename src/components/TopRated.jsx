@@ -97,7 +97,7 @@ export default function TopRated() {
 											className={'youtube'}
 											containerClassName={'youtube-container'}
 											opts={{
-												width: '562%',
+												width: '449%',
 												height: '600px',
 												playerVars: {
 													autoplay: 1,

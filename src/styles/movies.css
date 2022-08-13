@@ -49,13 +49,12 @@
 }
 
 .form {
-	position: relative;
-	left: 1350px;
-	top: 55px;
 	text-transform: uppercase;
 }
 .search-header-in {
-	position: relative;
+	position: fixed;
+	left: 1024px;
+	top: 70px;
 	width: 180px;
 	padding: 0;
 	height: 20px;
