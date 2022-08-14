@@ -1,0 +1,45 @@
+.flex-cummunity {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.flex-cummunity img {
+	height: 112px;
+	aspect-ratio: auto 112 / 112;
+	width: 112px;
+}
+
+.flex-cummunity p {
+	font-size: 1.25rem;
+	color: #65676b;
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+
+.flex-cummunity h4 {
+	margin-top: 1px;
+	text-align: center;
+	color: #65676b;
+	line-height: 1.1765;
+	font-weight: 400;
+}
+
+.flex-cummunity button {
+	background-color: #1b74e4;
+	color: white;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: none;
+	border-radius: 8px;
+	font-size: 1.0625rem;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+

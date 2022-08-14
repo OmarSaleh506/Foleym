@@ -11,6 +11,7 @@ import ProfilePage from './pages/profile';
 import { initializeApp } from 'firebase/app';
 import { config } from './firebase/firebase-config';
 import LoginPage from './pages/login';
+import NotFoundPage from './pages/notfound';
 
 initializeApp(config.firebaseConfig);
 
@@ -26,6 +27,7 @@ root.render(
 			<Route path="toprated" element={<TopRatedPage />} />
 			<Route path="upcoming" element={<UpcomingPage />} />
 			<Route path="profile" element={<ProfilePage />} />
+			<Route path="/*" element={<NotFoundPage />} />
 		</Routes>
 	</BrowserRouter>
 );
