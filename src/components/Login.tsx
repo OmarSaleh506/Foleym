@@ -22,9 +22,9 @@ const Login: React.FunctionComponent<ISigninPageProps> = (props) => {
 	const onSubmit: SubmitHandler<Inputs> = async (data) => {
 		console.log(data);
 		if (login) {
-			window.alert('try agin');
-		} else {
 			navigate('/movies');
+		} else {
+			window.alert('try agin');
 		}
 	};
 	const signInWithGoogle = async () => {

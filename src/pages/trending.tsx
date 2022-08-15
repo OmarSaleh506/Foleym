@@ -4,10 +4,10 @@ import Trending from '../components/Trending';
 
 export default function TrendingPage() {
 	return (
-		<AuthRoute>
-			<Layout>
-				<Trending />
-			</Layout>
-		</AuthRoute>
+		// <AuthRoute>
+		// </AuthRoute>
+		<Layout>
+			<Trending />
+		</Layout>
 	);
 }

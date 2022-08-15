@@ -4,10 +4,10 @@ import Upcoming from '../components/Upcoming';
 
 export default function UpcomingPage() {
 	return (
-		<AuthRoute>
-			<Layout>
-				<Upcoming />
-			</Layout>
-		</AuthRoute>
+		// <AuthRoute>
+		// </AuthRoute>
+		<Layout>
+			<Upcoming />
+		</Layout>
 	);
 }

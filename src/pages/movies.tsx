@@ -4,10 +4,10 @@ import Originals from '../components/Originals';
 
 export default function MoviesPage() {
 	return (
-		<AuthRoute>
-			<Layout>
-				<Originals />
-			</Layout>
-		</AuthRoute>
+		/* <AuthRoute>
+		</AuthRoute> */
+		<Layout>
+			<Originals />
+		</Layout>
 	);
 }

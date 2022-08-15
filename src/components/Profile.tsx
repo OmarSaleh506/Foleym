@@ -21,8 +21,8 @@ export default function Profile() {
 				<div className="btn-logout">
 					<button
 						className="login-btn-login logout"
-						onDoubleClick={() => navigate('/movies')}
-						onClick={() => signOut(auth)}
+						onDoubleClick={() => signOut(auth)}
+						onClick={() => navigate('/')}
 					>
 						Logout
 					</button>

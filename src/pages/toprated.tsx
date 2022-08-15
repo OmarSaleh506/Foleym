@@ -4,10 +4,10 @@ import TopRated from '../components/TopRated';
 
 export default function TopRatedPage() {
 	return (
-		<AuthRoute>
-			<Layout>
-				<TopRated />
-			</Layout>
-		</AuthRoute>
+		// <AuthRoute>
+		// </AuthRoute>
+		<Layout>
+			<TopRated />
+		</Layout>
 	);
 }

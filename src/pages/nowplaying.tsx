@@ -4,10 +4,10 @@ import NowPlaying from '../components/NowPlaying';
 
 export default function NowPlayingPage() {
 	return (
-		<AuthRoute>
-			<Layout>
-				<NowPlaying />
-			</Layout>
-		</AuthRoute>
+		// <AuthRoute>
+		// </AuthRoute>
+		<Layout>
+			<NowPlaying />
+		</Layout>
 	);
 }
