@@ -43,14 +43,14 @@ const Login: React.FunctionComponent<ISigninPageProps> = (props) => {
 	return (
 		<div className="login">
 			<div className="login-container sign-up-content">
-				<h1>Login</h1>
+				<h1>Sign up</h1>
 				<form onSubmit={handleSubmit(onSubmit)} className="login-form">
 					<input type="text" placeholder="Email" {...register('email', { required: true })} />
 					{errors.email && <p className="error-p">Please enter a valid email.</p>}
 					<input type="password" placeholder="Password" {...register('password', { required: true })} />
 					{errors.password && <p className="error-p">Please enter Your password.</p>}
 					<button onClick={() => setLogin(true)} type="submit" className="login-btn-login">
-						Login
+						Join
 					</button>{' '}
 					<br />
 					<div className="login-underline">_______________________________________________</div>
